@@ -1,6 +1,6 @@
-#+TITLE: Bruce Ravel's CV
+# Dr. Peilong Li's CV
 
-[[https://s3.amazonaws.com/BruceRavelCV/cv.pdf][A PDF copy of my CV]]
+Adopted from: Dr. Bruce Ravel's CV template [[https://github.com/bruceravel/My-CV]]
 
 * Files:
 
