@@ -1,0 +1,9 @@
+# LaTeX build output (run `make`)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+cv.pdf
+.DS_Store
