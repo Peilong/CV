@@ -26,7 +26,14 @@
 \phone{1-978-905-9351}
 %\mobile{1-312-636-3694}
 %\fax{1-631-344-5419}
-\email{lip@etown.edu}
+% `make web` builds cv-web.pdf, the copy published on peilong.github.io. It spells the address out
+% so that crawlers can't harvest it; `make` keeps the real address for applications.
+\ifdefined\webcv
+  \email{lip AT etown DOT edu}
+  \renewcommand*{\emaillink}[2][]{#2}  % plain text, no mailto link
+\else
+  \email{lip@etown.edu}
+\fi
 \homepage{https://peilong.github.io}
 \extrainfo{\href{http://github.com/Peilong}{http://github.com/Peilong}}
 %\extrainfo{\href{https://speakerdeck.com/bruceravel}{https://speakerdeck.com/bruceravel}}
