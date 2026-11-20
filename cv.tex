@@ -23,7 +23,9 @@
 \familyname{Li}
 \title{Dr. Peilong Li's curiculum vitae}
 \address{One Alpha Dr.}{Elizabethtown, PA 17022, USA}
-\phone{1-978-905-9351}
+\ifdefined\webcv\else
+  \phone{1-978-905-9351}  % left out of the web copy (cv-web.pdf)
+\fi
 %\mobile{1-312-636-3694}
 %\fax{1-631-344-5419}
 % `make web` builds cv-web.pdf, the copy published on peilong.github.io. It spells the address out
